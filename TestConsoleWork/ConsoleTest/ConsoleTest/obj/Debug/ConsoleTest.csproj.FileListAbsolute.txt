@@ -1,0 +1,11 @@
+D:\TestConsoleWork\ConsoleTest\ConsoleTest\bin\Debug\ConsoleTest.exe.config
+D:\TestConsoleWork\ConsoleTest\ConsoleTest\bin\Debug\ConsoleTest.exe
+D:\TestConsoleWork\ConsoleTest\ConsoleTest\bin\Debug\ConsoleTest.pdb
+D:\TestConsoleWork\ConsoleTest\ConsoleTest\bin\Debug\lib.dll
+D:\TestConsoleWork\ConsoleTest\ConsoleTest\bin\Debug\TestPluginLibrary.dll
+D:\TestConsoleWork\ConsoleTest\ConsoleTest\bin\Debug\lib.pdb
+D:\TestConsoleWork\ConsoleTest\ConsoleTest\bin\Debug\TestPluginLibrary.pdb
+D:\TestConsoleWork\ConsoleTest\ConsoleTest\obj\Debug\ConsoleTest.csprojAssemblyReference.cache
+D:\TestConsoleWork\ConsoleTest\ConsoleTest\obj\Debug\ConsoleTest.csproj.CopyComplete
+D:\TestConsoleWork\ConsoleTest\ConsoleTest\obj\Debug\ConsoleTest.exe
+D:\TestConsoleWork\ConsoleTest\ConsoleTest\obj\Debug\ConsoleTest.pdb

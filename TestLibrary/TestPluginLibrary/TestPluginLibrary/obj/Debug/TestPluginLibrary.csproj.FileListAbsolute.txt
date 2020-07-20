@@ -1,0 +1,8 @@
+D:\TestLibrary\TestPluginLibrary\TestPluginLibrary\bin\Debug\TestPluginLibrary.dll
+D:\TestLibrary\TestPluginLibrary\TestPluginLibrary\bin\Debug\TestPluginLibrary.pdb
+D:\TestLibrary\TestPluginLibrary\TestPluginLibrary\bin\Debug\lib.dll
+D:\TestLibrary\TestPluginLibrary\TestPluginLibrary\bin\Debug\lib.pdb
+D:\TestLibrary\TestPluginLibrary\TestPluginLibrary\obj\Debug\TestPluginLibrary.csprojAssemblyReference.cache
+D:\TestLibrary\TestPluginLibrary\TestPluginLibrary\obj\Debug\TestPluginLibrary.csproj.CopyComplete
+D:\TestLibrary\TestPluginLibrary\TestPluginLibrary\obj\Debug\TestPluginLibrary.dll
+D:\TestLibrary\TestPluginLibrary\TestPluginLibrary\obj\Debug\TestPluginLibrary.pdb
