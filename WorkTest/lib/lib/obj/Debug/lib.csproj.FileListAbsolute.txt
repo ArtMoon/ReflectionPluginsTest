@@ -3,3 +3,8 @@ D:\WorkTest\lib\lib\bin\Debug\lib.pdb
 D:\WorkTest\lib\lib\obj\Debug\lib.csprojAssemblyReference.cache
 D:\WorkTest\lib\lib\obj\Debug\lib.dll
 D:\WorkTest\lib\lib\obj\Debug\lib.pdb
+D:\WORK\WorkTest\lib\lib\bin\Debug\lib.dll
+D:\WORK\WorkTest\lib\lib\bin\Debug\lib.pdb
+D:\WORK\WorkTest\lib\lib\obj\Debug\lib.csprojAssemblyReference.cache
+D:\WORK\WorkTest\lib\lib\obj\Debug\lib.dll
+D:\WORK\WorkTest\lib\lib\obj\Debug\lib.pdb
