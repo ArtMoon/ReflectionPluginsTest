@@ -6,12 +6,22 @@ using System.Linq;
 
 namespace ds.test.impl
 {
+
+    /// <summary>
+    /// Plugin interface
+    /// </summary>
     public interface IPlugin
     { 
         string PluginName { get; }
         string Version { get; }
         System.Drawing.Image Image { get; }
         string Description { get; }
+        /// <summary>
+        /// Main function of interface
+        /// </summary>
+        /// <param name="input1"> first param</param>
+        /// <param name="input2"> second param</param>
+        /// <returns></returns>
         int Run(int input1, int input2);
 
     }
@@ -23,12 +33,19 @@ namespace ds.test.impl
         IPlugin GetPlugin(string pluginName);
     }
 
+    /// <summary>
+    /// Class which can bind assembly and work with IPlugin implementations in it
+    /// It's a singleton class
+    /// </summary>
     public class Plugins : PluginFactory
     {
 
         private Plugins() { }
         private Dictionary<string, IPlugin> _pluginsDisctionary = new Dictionary<string, IPlugin>();
         private static Plugins _instance = null;
+        /// <summary>
+        /// Binded Assembly
+        /// </summary>
         private Assembly _bindedAssembly = null;
         public static Plugins Instance
         {
@@ -80,13 +97,19 @@ namespace ds.test.impl
             
         }
 
-
+        /// <summary>
+        /// Bind assembly with plugins by assembly name
+        /// </summary>
+        /// <param name="assemblyName"> assembly name</param>
         public void BindAssembly(string assemblyName)
         {
             _bindedAssembly = Assembly.LoadFrom(assemblyName);
-            RegisterPlugins();
+            if(_bindedAssembly != null) RegisterPlugins();
         }
 
+        /// <summary>
+        /// if assembly exists, we need to register all Plugins in it
+        /// </summary>
         private void RegisterPlugins()
         {
             foreach (var t in _bindedAssembly.GetTypes())
@@ -100,6 +123,10 @@ namespace ds.test.impl
         }
     }
 
+
+    /// <summary>
+    /// Some exceptions
+    /// </summary>
     class PluginException : Exception
     {
         public PluginException(string message)
